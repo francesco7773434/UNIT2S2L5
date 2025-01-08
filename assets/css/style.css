@@ -179,28 +179,86 @@ footer a {
     color: fuchsia;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 1200px){
+    .headers{
+     display: inline;
+     float: left;
+     padding-bottom: 2rem;
+     
+ 
+    }
+    .parheader{
+     float: left;
+     display: inline;
+    }
+ 
     header nav ul li {
-      display: inline;
-      padding: 1rem;
-
-    }
-
-    .logo{
-       border: solid rgb(21, 122, 204);
-       width: fit-content;
-       height: fit-content;
-       outline: 4px solid rgb(163, 7, 116);
-       margin-bottom: 1rem; 
-
-
-    }
-    .piedipagina{
-        margin: 1rem;
-    }
-  }
-
-  @media screen and (max-width: 768px){
+     display: inline;
+     padding: 1rem;
+     margin-left: 1rem;
+ 
+   }
+   .logo{
+     border: solid rgb(21, 122, 204);
+     width: fit-content;
+     height: fit-content;
+     outline: 4px solid rgb(163, 7, 116);
+     margin-bottom: 1rem; 
+   }
+   h1{
+     font-size: 430%;
+     margin-bottom: 1rem;
+     
+   }
+   h2{
+     font-weight: bold;
+     font-size: 150%;
+   }
+   table{
+     margin-inline: auto;
+     margin-top: 7rem;
+     width: 70%;
+     
+ }
+ iframe{
+     width: 50%;
+     height: 50%;
+ }
+ .youtube{
+     display: inline;
+ }
+ .secondoTitolo{
+     background-color: #979595;
+     font-style: initial;
+     
+ 
+ }
+ .novita{
+     width: 50%;
+     float: right;
+     border-radius: 10px;
+ }
+ 
+ .terzoTitolo{
+    margin-inline: auto;
+    margin-top: 2rem;
+    
+ }
+ .sezioni{
+     display: inline-block;
+    
+    padding-inline: 6rem;
+    margin-inline: auto;
+    
+ }
+ aside{
+     margin-inline: auto;
+     text-align: center;
+     padding: 2rem;
+    
+ }
+ }
+ @media screen and (min-width: 768px){
     header nav ul li {
         display: inline;
         padding: 1rem;
@@ -248,82 +306,27 @@ footer a {
     font-size: 250%;
   }
 }
-@media screen and (max-width: 1200px){
-   .headers{
-    display: inline;
-    float: left;
-    padding-bottom: 2rem;
-    
 
-   }
-   .parheader{
-    float: left;
-    display: inline;
-   }
 
-   header nav ul li {
-    display: inline;
-    padding: 1rem;
-    margin-left: 1rem;
+@media screen and (min-width: 576px) {
+    header nav ul li {
+      display: inline;
+      padding: 1rem;
 
+    }
+
+    .logo{
+       border: solid rgb(21, 122, 204);
+       width: fit-content;
+       height: fit-content;
+       outline: 4px solid rgb(163, 7, 116);
+       margin-bottom: 1rem; 
+
+
+    }
+    .piedipagina{
+        margin: 1rem;
+    }
   }
-  .logo{
-    border: solid rgb(21, 122, 204);
-    width: fit-content;
-    height: fit-content;
-    outline: 4px solid rgb(163, 7, 116);
-    margin-bottom: 1rem; 
-  }
-  h1{
-    font-size: 430%;
-    margin-bottom: 1rem;
-    
-  }
-  h2{
-    font-weight: bold;
-    font-size: 150%;
-  }
-  table{
-    margin-inline: auto;
-    margin-top: 7rem;
-    width: 70%;
-    
-}
-iframe{
-    width: 50%;
-    height: 50%;
-}
-.youtube{
-    display: inline;
-}
-.secondoTitolo{
-    background-color: #979595;
-    font-style: initial;
-    
 
-}
-.novita{
-    width: 50%;
-    float: right;
-    border-radius: 10px;
-}
-
-.terzoTitolo{
-   margin-inline: auto;
-   margin-top: 2rem;
-   
-}
-.sezioni{
-    display: inline-block;
-   
-   padding-inline: 6rem;
-   margin-inline: auto;
-   
-}
-aside{
-    margin-inline: auto;
-    text-align: center;
-    padding: 2rem;
-   
-}
-}
+ 
